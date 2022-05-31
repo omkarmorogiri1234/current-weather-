@@ -1,0 +1,46 @@
+<!DOCTYPE html>  
+ <html lang="en">  
+ <head>  
+   <meta charset="UTF-8">  
+   <title>Weather App</title>  
+   <link rel="stylesheet" href="css/home.css">  
+   <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+   <script src="/js/script.js" defer></script>  
+
+  
+ </head>  
+ <body>  
+   <div class="card">  
+     <div class="search">  
+       <input type="text" class="search-bar" placeholder="Search" id="ci">  
+       <button>  
+       </button>  
+     </div>  
+     <div class="weather loading">  
+       <h2 class="city"></h2>  
+       <h1 class="temp"></h1>   
+       <div class="humidity"></div>  
+     </div>  
+     <div class="favcity">
+        <div class="row text-center">
+         {{!-- <input type="text" placeholder="Enter City" id="ci"> --}}
+            <br>
+            <br>
+
+            <button onclick="test()" class="btn btn-primary">Add to Favourites List</button>
+
+            <br>
+            <br>
+            <button onclick="disp()" class="btn btn-primary">Display Favourites List</button>
+
+            <br>
+            <br>
+            <div id="Result"></div>
+        </div>
+    </div>
+   
+   </div>  
+   
+</script>
+ </body>  
+ </html>  

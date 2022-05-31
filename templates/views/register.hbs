@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <form class="box" action="/register" name="myform"  method="post">
+            <div class="container">
+                <div class="form-title">Registration</div>
+                <div class="inputs">
+                  <label>EMAIL</label>
+                  <input type="email" placeholder="Enter email here"  name="email"/>
+                  <label>PASSWORD</label>
+                  <input type="password" placeholder="enter password here" name="password" />
+                  <label>CONFIRM PASSWORD</label>
+                  <input type="password" placeholder="confirm password here" name="conpassword" />
+                  <button type="submit">Register</button>
+                  {{!-- <button type="submit">Login</button> --}}
+                </div>
+              </div>
+        </form>
+    </body>
+</html>
